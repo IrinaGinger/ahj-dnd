@@ -1,0 +1,174 @@
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.board-header {
+    font-size: 20px;
+    color: rgb(103, 103, 103);
+}
+
+.hide {
+    display: none;
+}
+
+.board {
+    display: flex;
+
+    background-color: rgb(53, 105, 248);
+
+    padding: 10px;
+    gap: 10px;
+
+    font-size: 16px;
+}
+.column {
+    display: block;
+    
+    background-color: rgb(230, 229, 229);
+
+    border-radius: 3px;
+
+    padding: 10px;
+    
+    width: calc((100% - 40px) / 3);
+}
+
+.column-head {
+    font-weight: 700;
+    font-size: inherit;
+
+    color: rgb(103, 103, 103);
+
+    gap: 10px;
+}
+
+
+.card {
+    position: relative;
+    box-sizing: border-box;
+
+    background-color: white;
+    
+    border-radius: 3px;
+
+    min-width: 300px;
+
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+.card:hover {
+    background-color: rgb(245, 243, 243);
+}
+
+.card-text {
+    color: rgb(78, 77, 77);
+    margin: 0;
+}
+
+.card.dragged {
+    position: absolute;
+    z-index: 999;
+    cursor: grabbing; 
+}
+
+.card_close {
+    position: absolute;
+    box-sizing: border-box;
+
+	top: 5px;
+	right: 5px;
+    padding: 0px 3px 3px;
+
+    background-color: rgb(230, 229, 229);
+    color: grey;
+    font-size: 20px;
+    line-height: 100%;
+
+	cursor: pointer;    
+}
+
+.inactive {
+    display: none;
+}
+.add-another-card-button {
+    border: none;
+    color: rgb(177, 176, 176);
+    background-color: transparent;
+    font-size: inherit;
+
+    margin-top: 20px; 
+}
+
+.add-another-card-button:hover {
+    text-decoration: underline;
+}
+
+.add-another-card-button::before {
+    content: "";
+    background: url(efa466bbac26498c4667.png) no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.inactive {
+    display: none;
+}
+
+.add-card-form {
+    display: block;
+}
+
+.add-card-input {
+    background-color: white;
+    color: rgb(177, 176, 176);
+    
+    border-radius: 3px;
+    border-style: none;
+
+    width: calc(100% - 20px);
+    height: 100px;
+
+    padding: 10px;
+    margin-bottom: 10px; 
+
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.add-card-input:focus {
+    outline-color: rgb(177, 176, 176);
+}
+
+.buttons-section {
+    display: flex;
+}
+
+.add-card-button {
+    box-sizing: border-box;
+    background-color: rgb(32, 179, 32);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.cancel-button {
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(230, 229, 229);
+    height: 36px;
+    padding: 0;
+    font-size: 28px;
+    line-height: 90%;
+    color: rgb(177, 176, 176);
+}
+
+/*# sourceMappingURL=style.css.map*/
