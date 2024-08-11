@@ -1,0 +1,21 @@
+.column {
+    display: block;
+    
+    background-color: rgb(230, 229, 229);
+
+    border-radius: 3px;
+
+    padding: 10px;
+    
+    width: calc((100% - 40px) / 3);
+}
+
+.column-head {
+    font-weight: 700;
+    font-size: inherit;
+
+    color: rgb(103, 103, 103);
+
+    gap: 10px;
+}
+

@@ -1,0 +1,48 @@
+.card {
+    position: relative;
+    box-sizing: border-box;
+
+    background-color: white;
+    
+    border-radius: 3px;
+
+    min-width: 300px;
+
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+.card:hover {
+    background-color: rgb(245, 243, 243);
+}
+
+.card-text {
+    color: rgb(78, 77, 77);
+    margin: 0;
+}
+
+.card.dragged {
+    position: absolute;
+    z-index: 999;
+    cursor: grabbing; 
+}
+
+.card_close {
+    position: absolute;
+    box-sizing: border-box;
+
+	top: 5px;
+	right: 5px;
+    padding: 0px 3px 3px;
+
+    background-color: rgb(230, 229, 229);
+    color: grey;
+    font-size: 20px;
+    line-height: 100%;
+
+	cursor: pointer;    
+}
+
+.inactive {
+    display: none;
+}

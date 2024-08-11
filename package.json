@@ -1,7 +1,7 @@
 {
-  "name": "task-events",
+  "name": "Task-DnD",
   "version": "1.0.0",
-  "description": "Домашнее задание по теме События",
+  "description": "Домашнее задание по теме Drag-and-Drop",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
@@ -9,7 +9,7 @@
     "build": "webpack --mode production",
     "lint": "eslint ."
   },
-  "repository": "https://github.com/IrinaGinger/ahj-events",
+  "repository": "https://github.com/IrinaGinger/ahj-dnd",
   "author": "Irina Kriuchkova <ivk2005@yandex.ru>",
   "license": "MIT",
   "devDependencies": {

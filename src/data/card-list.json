@@ -1,0 +1,17 @@
+{
+    "todo": [
+        "Welcome to Trello!",
+        "This is a card!",
+        "Click on a card to see what's behind it"
+    ],
+    "inprogress": [
+        "Invite your team",
+        "Drag people onto a card"
+    ],
+    "done": [
+        "To learn more tricks check out the guide",
+        "Use as many boards as you want",
+        "Want to use keyboard shortcuts?",
+        "Want updates on new features?"
+    ]
+}

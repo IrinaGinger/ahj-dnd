@@ -1,34 +1,12 @@
-:root {
-    --cell-size: 100px;
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.board-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.board-header {
+    font-size: 20px;
+    color: rgb(103, 103, 103);
 }
 
-.board {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-
-}
-
-.cell {
-    width: var(--cell-size);
-    height: var(--cell-size);
-    border: 2px solid green;
-}
-
-.character {
-    width: var(--cell-size);
-    height: var(--cell-size);
-    position: absolute;
-    z-index: 99;
-
-    background: url('../img/goblin.png');
-    background-size: 100%;
+.hide {
+    display: none;
 }
