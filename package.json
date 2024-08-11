@@ -4,7 +4,7 @@
   "description": "Домашнее задание по теме Drag-and-Drop",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint ."
